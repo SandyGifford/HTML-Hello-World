@@ -2,9 +2,9 @@
 
 From zero to [Hello World](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program):
 
-- First we’ll load a plane text document with just the phrase “Hello World!” In it in a browser.
-- Then we’ll add some very basic formatting.
-- Then we’ll learn the basic structure of an HTML document.
+- We’ll load a plane text document with just the phrase “Hello World!” in it in a browser.
+- We’ll add some very basic formatting.
+- We’ll learn the basic structure of an HTML document.
 
 **BUT** before we get going there are a few things we’re going to need:
 
@@ -15,7 +15,7 @@ From zero to [Hello World](https://en.wikipedia.org/wiki/%22Hello,_World!%22_pro
 
 It’s important that you use a plain text editor (one that doesn’t have any formatting options).  Formatted text (or even unformatted text from an editor that can make formatted text) is filled with lots of other data behind the scenes that a browser won’t know how to read.
 
-There are plenty of options, I’d recommend (VS Code)[https://code.visualstudio.com/].  Other good options are:
+There are plenty of options, I’d recommend [VS Code](https://code.visualstudio.com/).  Other good options are:
 
 - [Sublime Text](https://www.sublimetext.com/) (this is a close second to VS Code for me)
 - [BBEdit](https://www.barebones.com/products/bbedit/index.html)
@@ -31,7 +31,7 @@ Any tutorials I write are going to assume VS Code.  There’s not going to be an
 
 There’s not a lot to do here.  Once the app is downloaded and installed, pop it open!
 
-VS Code works a lot like any other text editor, you open files and they appear (as text) in front of you.  One big thing that editors like this do that makes life a lot easier is give you the ability to open directories (folders):
+VS Code works a lot like any other text editor: you open files and they appear (as text) in front of you.  One big thing that editors like this to make your life a lot easier is give you the ability to open directories (folders):
 
 From the “File” menu choose “Open…”
 
@@ -58,7 +58,7 @@ And we’re ready to go!
 
 From the menu select "File > New File".  An unnamed file will be created in the editor.
 
-![VS Code, blank file](https://user-images.githubusercontent.com/5024843/116786291-c186ed80-aa6b-11eb-9b4d-e4ae5f839c14.png)
+![VS Code, unsaved file](https://user-images.githubusercontent.com/5024843/116788952-6a3c4980-aa7a-11eb-85b7-7686a2d160fc.png)
 
 From the menu select "File > Save".  A save dialog will appear (it should already be in the folder you created), name your file `index.html` and click "Save".
 
@@ -67,6 +67,8 @@ From the menu select "File > Save".  A save dialog will appear (it should alread
 > **Why are we naming the file "index"?**
 > 
 > You could really name this file anything, but `index` has a special meaning.  Many web servers serve files directly from a folder system just like on your computer.  If you had a folder `dana` and inside of it a file `about.html` on a server, you would access it through `https://whatever.com/dana/about.html`.  If you named that same file `index.html` it could be accessed through either `https://whatever.com/dana/index.html` or (more commonly) `https://whatever.com/dana`.
+
+![VS Code, blank file](https://user-images.githubusercontent.com/5024843/116786291-c186ed80-aa6b-11eb-9b4d-e4ae5f839c14.png)
 
 And that's it!  We've created an HTML file.  `index.html` should appear in the tab at the top of the screen and in the sidebar (if you have the sidebar open)
 
@@ -116,7 +118,7 @@ Open tags take the form `<tagName>` and close tags take the form `</tagname>`.
 
 > **What about `b` and `i`?**
 > 
-> If you are coming into this with slightly older HTML knowledge, you may be confused by the `strong` tag:  In older versions of HTML, we'd use `<b>Sandy</b>` to add boldness.  As of HTML 5, many formatting tags that implied the sort of formatting to be done ("b" for "bold") have been replaced by tags which suggest the *reason* you would want that formatting (I want this text to appear "strong").
+> If you are coming into this with slightly older HTML knowledge, you may be confused by the `strong` tag:  In older versions of HTML, we'd use `<b>Sandy</b>` to add boldness.  In HTML 5, many tags that implied the sort of formatting to be done ("b" for "bold") have been replaced by tags which suggest the *reason* you would want that formatting (I want this text to appear "strong").
 > 
 > This has two effects:
 > - screen readers can more easily interpret the purpose of the text
@@ -133,7 +135,7 @@ When you're done your document should look something like this:
 
 ### Structure of an HTML page
 
-Copy/paste the following code into your document:
+Copy/paste the following code into your document (replace the existing content):
 
 ```html
 <!DOCTYPE html>
