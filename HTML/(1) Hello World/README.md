@@ -2,6 +2,8 @@
 
 From zero to [Hello World](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program):
 
+In this tutorial
+
 - We’ll load a plane text document with just the phrase “Hello World!” in it in a browser.
 - We’ll add some very basic formatting.
 - We’ll learn the basic structure of an HTML document.
